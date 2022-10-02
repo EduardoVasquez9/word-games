@@ -3,6 +3,7 @@ body {
   font-family: 'Ubuntu', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:  var(--background-light);
   --primary-dark: #012E4A;
   --primary-light: #036280;
   --alternative-light: #378BA4;
@@ -14,5 +15,34 @@ body {
   --success: #87C159;
   --success-dark: #058240;
   --white: #FFFFFF;
+}
 
+.container {
+  max-width: 1000px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.content {
+  background-color: var(--white);
+  padding: 10px;
+  min-height: 90vh;
+  margin-top: 10px;
+}
+
+.navBar {
+  background-color: var(--primary-dark);
+  top: 0;
+  width: 100%;
+  min-height: 32px;
+}
+
+a{
+  padding: 6px;
+  text-decoration: none;
+  color: var(--white);
+}
+
+a:hover {
+  color: var(--highlight);
 }
