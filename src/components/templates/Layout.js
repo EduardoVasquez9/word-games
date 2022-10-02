@@ -5,7 +5,7 @@ function Layout({ children }) {
   return (
     <React.Fragment>
       <Navbar />
-      <div className="container content">{children}</div>
+      <div className="content">{children}</div>
     </React.Fragment>
   );
 }
