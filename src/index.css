@@ -18,27 +18,53 @@ body {
 }
 
 .content {
-  margin: 0 auto;
-  max-width: 1000px;
+  max-width: 980px;
+  min-height: 84vh;
   background-color: var(--white);
+  margin: 0 auto;
   padding: 10px;
-  margin-top: 10px;
+  margin-top: 1rem;
 }
 
-.navBar {
-  background-color: var(--primary-dark);
-  top: 0;
+.container {
+  margin: 0 auto;
+  max-width: 980px;
   width: 100%;
-  min-height: 32px;
+  padding: 6px;
+}
+
+.right_options {
+  float: right;
+}
+
+.center-text {
+  text-align: center;
+}
+
+nav {
+  background-color: var(--primary-dark);
+  width: 100%;
+  min-height: 36px;
   display: flex;
+  align-items: center;
 }
 
-a{
-  margin: 8px;
-  text-decoration: none;
+nav a {
   color: var(--white);
+  text-decoration: none;
+  margin: 8px;
 }
 
-a:hover {
+nav a:hover {
   color: var(--highlight);
 }
+
+input {
+  padding: 2px;
+  min-width: 100px;
+  min-height: 24px;
+  border: none;
+  outline: 0;
+  border-bottom: 2px solid var(--alternative-light);
+}
+
